@@ -1,0 +1,17 @@
+.bannerImage {
+    background-color: black;
+    height: 300px;
+    display: grid;
+    align-content: center;
+    row-gap: 10px;
+}
+
+.bannerContent {
+    color: grey;
+    font-size: 20px;
+}
+
+.bannerHeader {
+    font-size: 60px;
+    color: white;
+}

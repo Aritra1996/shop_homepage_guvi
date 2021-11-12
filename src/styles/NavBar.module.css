@@ -1,0 +1,28 @@
+.navBarContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header {
+    font-size: large;
+    width: 30%;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.grey {
+    color: grey
+}
+
+.cartButton {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20%;
+}
