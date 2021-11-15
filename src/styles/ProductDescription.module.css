@@ -1,6 +1,35 @@
 .descriptionContainer {
-    height: 150px;
+    height: 200px;
     display: grid;
     row-gap: 10px;
     align-content: space-around;
+    justify-content: center;
+}
+
+.description {
+    height: 100px;
+    display: grid;
+    row-gap: 10px;
+}
+
+.itemName {
+    font-size: larger;
+}
+
+.rating {
+    color: yellow;
+    font-size: x-large;
+}
+
+.productButton {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.productButton:hover {
+    color: white;
+    background-color: black;
 }

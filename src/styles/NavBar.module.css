@@ -16,13 +16,37 @@
     width: 20%;
 }
 
-.grey {
+.navItemGrey {
     color: grey
 }
 
-.cartButton {
+.backgroundWhite {
+    background-color: white;
+}
+
+.cartContainer {
     width: 50%;
     display: flex;
     justify-content: flex-end;
     padding-right: 20%;
+}
+
+.cartCounter {
+    color: red;
+}
+
+.cartButtonContainer {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-content: center;
+}
+
+.cartButtonContainer:hover {
+    color: white;
+    background-color: black;
 }

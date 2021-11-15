@@ -1,14 +1,10 @@
 import './App.css';
-import { NavBarController } from './controllers/NavBarController';
-import { ShopBannerController } from './controllers/ShopBannerController';
-import { ProductsController } from './controllers/ProductsController';
+import { ShopPageController } from './controllers/ShopPageController';
 
 function App() {
   return (
     <div className="App">
-      <NavBarController/>
-      <ShopBannerController/>
-      <ProductsController/>
+      <ShopPageController/>
     </div>
   );
 }
